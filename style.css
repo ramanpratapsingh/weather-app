@@ -101,6 +101,19 @@ button:active {
   color: var(--gold);
 }
 
+@media (max-width: 640px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 16px;
+  }
+
+  .navLinks {
+    gap: 16px;
+  }
+}
+
 main {
   flex: 1;
   display: flex;
@@ -135,6 +148,12 @@ footer {
 .hero h1 {
   font-size: 46px;
   margin: 0 0 14px;
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 32px;
+  }
 }
 
 .hero p.lead {
