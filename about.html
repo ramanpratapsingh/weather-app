@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About - Skyline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="brand">Sky<span>line</span></a>
+    <ul class="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="weather.html">Weather</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="page">
+      <p class="eyebrow">About Skyline</p>
+      <h1>Why we built this</h1>
+      <p>Skyline is a simple weather lookup app built as a college front-end project. It uses the free Open-Meteo API to fetch live temperature, wind speed and humidity for any city in the world — no sign-up or API key required.</p>
+
+      <div class="aboutCard">
+        <h3>How it works</h3>
+        <p>When you search a city, Skyline first finds its coordinates using Open-Meteo's geocoding service, then requests the current weather for that location. Your last five searches are saved in your browser so you can revisit them quickly.</p>
+      </div>
+
+      <div class="aboutCard">
+        <h3>Tech Stack</h3>
+        <p>Built entirely with HTML, CSS and JavaScript — no frameworks or backend server involved.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>&copy; 2026 Skyline Weather. Built as a college project.</footer>
+
+</body>
+</html>
