@@ -2,7 +2,7 @@
 
 A simple weather lookup website built as a college front-end project — search any city and get live temperature, wind speed, and humidity.
 
-**Live demo:** _[add your GitHub Pages link here once it's live](https://ramanpratapsingh.github.io/weather-app/)_
+**Live demo:** https://ramanpratapsingh.github.io/weather-app/
 
 ## Features
 
